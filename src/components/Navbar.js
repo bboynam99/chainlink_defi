@@ -7,8 +7,8 @@ class Navbar extends Component {
       <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
         <a
           className="navbar-brand col-sm-3 col-md-2 mr-0"
-          href="https://alphachain.io"
-          target="_blank"
+          href="#"
+          target="_self"
           rel="noopener noreferrer"
         >
           <img
@@ -18,7 +18,7 @@ class Navbar extends Component {
             className="d-inline-block align-top"
             alt=""
           />
-          &nbsp; DApp Token Farm
+          &nbsp; Token Farm
         </a>
 
         <ul className="navbar-nav px-3">
