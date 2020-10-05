@@ -83,7 +83,7 @@ class Main extends Component {
                         "LINK",
                         chainlink
                       );
-                      //this.props.updateBalance(this.props.tokenAddress);
+                      this.props.updateBalance(this.props.tokenAddress);
                     }}
                   />
                   <label for="fau"> &nbsp;&nbsp;&nbsp;&nbsp;</label>
@@ -99,7 +99,7 @@ class Main extends Component {
                         "FAU",
                         dai
                       );
-                      //this.props.updateBalance(this.props.tokenAddress);
+                      this.props.updateBalance(this.props.tokenAddress);
                     }}
                   />
                   <label for="dapptoken"> &nbsp;&nbsp;&nbsp; &nbsp;</label>
@@ -115,7 +115,7 @@ class Main extends Component {
                         "DAPP",
                         dappImage
                       );
-                      //this.props.updateBalance(this.props.tokenAddress);
+                      this.props.updateBalance(this.props.tokenAddress);
                     }}
                   />
                 </form>
